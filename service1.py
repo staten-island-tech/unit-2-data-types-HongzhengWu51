@@ -8,7 +8,7 @@ w="25%"
 
 
 
-
+bill=60
 
 
 if service=="Bad":
@@ -19,14 +19,21 @@ if service=="Bad":
 elif service=="Okay":
      print(f"Tip is {y}")
      tip=0.15
+     
   
 elif service=="Good":
      print(f"Tip is {z}")
      tip=0.20
-    
+     
 elif service=="Great":
       print(f"Tip is {w}")
       tip=0.25
+      
 else:
      print("invalid")
+
+total_bill=(bill*tip)+tip
+print(total_bill)
+
+
 

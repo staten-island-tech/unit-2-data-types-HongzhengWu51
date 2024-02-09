@@ -1,4 +1,3 @@
-
 number=4
 if number==0:
     print('even')
