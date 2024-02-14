@@ -15,6 +15,9 @@ def factor2(y):
 factor2(y)
 factor2=[]
 
+def compare():
+    if(x==y):
+        print(x)
 
 
 
