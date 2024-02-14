@@ -1,12 +1,12 @@
 x=int(input("Pick a number:"))
 y=int(input("Pick another number:"))
 
-def factor_both(x):
+def factor1(x):
     for i in range(1,x+1):
         if x % (i)==0:
             print(i)
-factor_both(x)
-factor_both=[]
+factor1(x)
+factor1=[]
 
 def factor2(y):
     for i in range(1,y+1):
@@ -15,13 +15,4 @@ def factor2(y):
 factor2(y)
 factor2=[]
 
-def compare():
-    if(x==y):
-        print(x)
-
-
-
-
-
-
-
+print(factor1[-1])
