@@ -2,7 +2,9 @@ from random import randrange
 
 # number_list = ['1','2','3','4','5','6','7','9','10']
 # print(random.choice(number_list))
-
+#end = "" This is for formating and it puts a space.
+#.append adds adds the user guess to the end of the list.
+#The while loop repeats something until the condition is met and it breaks.
 min = 1
 max = 10
 random_number = randrange(min, max)
