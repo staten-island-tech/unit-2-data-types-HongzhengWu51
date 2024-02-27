@@ -9,3 +9,9 @@ elif first_initial in "bB":
     print(f"Homeroom: {homeroom}")
 else:
     print(f"Homeroom: {homeroom}")
+
+
+
+
+
+
