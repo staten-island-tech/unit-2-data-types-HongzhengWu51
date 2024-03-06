@@ -19,10 +19,10 @@ books = [ {
 }]
 
 
-def get_book(books):
-    for book in books():
-        if "psycological novel" in book['genre']:
-            print(book['title'], book['characters'])
+def get_book():
+    for thing in books():
+        if "psycological novel" in books['genre']:
+            print(books['title'], books['characters'])
 get_book(books)
 
 #if search == (input("psycologcal novel")):
