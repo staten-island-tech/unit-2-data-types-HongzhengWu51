@@ -1,4 +1,4 @@
-pick_genre= (input("Search for a genre:"))
+
 
 books = [ {
     'title': "Crime and Punishment",
@@ -17,11 +17,14 @@ books = [ {
     'genre': "novel",
     'characters': ["Yozo", "Takeichi"]
 }]
+#def get_book(books):
+  #  for genre in books():
+   #  if genre in books['genre']:
+   #      print(books['title'], books['characters'])
+#get_book(books)
 
-
-def get_book(books):
-   for genre in books():
-        if genre in books['genre'] == pick_genre:
-         print(books['title'], books['characters'])
-get_book(books)
-
+def find_book(books):
+    for genre in books():
+        if genre in books['genre']:
+            print(books['title'], books['characters'])
+find_book(books)
