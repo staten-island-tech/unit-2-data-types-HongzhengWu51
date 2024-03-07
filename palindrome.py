@@ -1,6 +1,6 @@
-def pal(x):
-    y = x.reverse()
-    if y == x:
+#def pal(x):
+   # y = x.reverse()
+   # if y == x:
 
 #def pal(x):
  #   y = x[::-1]
@@ -9,7 +9,7 @@ def pal(x):
 #This reverses string 
         #for i in x:
        # y = i + y
-def pal(x):
+def pale(x):
     y = ""
     for i in x:
         y = i + y

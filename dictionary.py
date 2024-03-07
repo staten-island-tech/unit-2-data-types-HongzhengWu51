@@ -1,4 +1,4 @@
-#search= (input("Search for a genre:"))
+pick_genre= (input("Search for a genre:"))
 
 books = [ {
     'title': "Crime and Punishment",
@@ -19,11 +19,9 @@ books = [ {
 }]
 
 
-def get_book():
-    for thing in books():
-        if "psycological novel" in books['genre']:
-            print(books['title'], books['characters'])
+def get_book(books):
+   for genre in books():
+        if genre in books['genre'] == pick_genre:
+         print(books['title'], books['characters'])
 get_book(books)
 
-#if search == (input("psycologcal novel")):
-   # print(books['title'], books['genre'])

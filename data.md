@@ -54,7 +54,7 @@ Think to yourself, how does knowing that each character in a String is really an
 Let's put some of these into practice.
 ```python
 x = "this is a thing"
-y= x.split( )
+y= x.split()
 z = y[0]
 print(y)
 print(z)
