@@ -1,5 +1,6 @@
 
-
+#the code for characters in book[characters] creates a loop that goes through the book that when through a loop to find all of the characters.
+#Remember when making the loop that what I am finding has to correspond with which category it's in.
 books = [ {
     'title': "Crime and Punishment",
     'genre': "psycological novel",
@@ -17,14 +18,10 @@ books = [ {
     'genre': "novel",
     'characters': ["Yozo", "Takeichi"]
 }]
-#def get_book(books):
-  #  for genre in books():
-   #  if genre in books['genre']:
-   #      print(books['title'], books['characters'])
-#get_book(books)
-
-def find_book(books):
-    for genre in books():
-        if genre in books['genre']:
-            print(books['title'], books['characters'])
-find_book(books)
+def get_book(books):
+    for book in books:
+        if 'Rodion Raskolnikov' in book['characters']:
+            print(book['title'], book['genre'])
+            for characters in book['characters']:
+                print(characters)
+get_book(books)
