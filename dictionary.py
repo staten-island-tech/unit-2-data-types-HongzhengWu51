@@ -18,16 +18,10 @@ books = [ {
     'genre': "novel",
     'characters': ["Yozo", "Takeichi"]
 }]
-#def get_book(books):
- #   for book in books:
-  #      if 'Rodion Raskolnikov' in book['characters']:
-   #         print(book['title'], book['genre'])
-    #        for characters in book['characters']:
-     #           print(characters)
-#get_book(books)
+
 
 def get_book(books):
     for book in books:
-        if 'Rodion Raskolnikov' in book['characters']:
+        if 'Yozo' in book['characters']:
             print(book['title'], book['genre'], book['characters'])
-get_book(books)
+get_book(books)   
