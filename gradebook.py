@@ -1,8 +1,17 @@
+
+
+name = (input("type your name:"))
+student_class= (input("type your class:"))
+grades =(input("type in your grades :"))
+
 student = {
-    'name' : "Sophia",
-    'class' : "27A",
-    'grades': ["100","95", "80"],
+    'name' : name,
+    'class' : student_class,
+    'grades': grades,
 }
 
-def gradebook_1(student):
-    if grades in student
+
+#def find_grades(student):
+  #  if name == student['name']:
+ #       print(student['grades'])
+#find_grades(student)
