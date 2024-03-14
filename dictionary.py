@@ -22,6 +22,6 @@ books = [ {
 
 def get_book(books):
     for book in books:
-        if 'Yozo' in book['characters']:
+        if 'Jay Gatsby' in book['characters']:
             print(book['title'], book['genre'], book['characters'])
 get_book(books)   
