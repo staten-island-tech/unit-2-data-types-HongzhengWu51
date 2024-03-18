@@ -8,7 +8,7 @@ student = {
     'class' : student_class,
     'grades': grades,
 }
-
+#Finds average. Len finds how many numbers there are.
 def get_average(grades):
     total = sum(grades)
     average = total / len(grades)

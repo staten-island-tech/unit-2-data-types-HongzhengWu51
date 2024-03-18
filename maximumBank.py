@@ -1,4 +1,4 @@
-#int(i) for i in x. x resents each of the lists in accounts. i is each num
+#int(i) for x in i. i resents each of the lists in accounts. x is each num
 accounts = [['1','2','3'], ['3','2','1'], ["5","10"], ["12","16"]]
 def maxMoney(accounts):
     int_accounts = [[int(x) for x in i] for i in accounts]
