@@ -1,15 +1,18 @@
 name = (input("type your name:"))
 student_class= (input("type your class:"))
-grades =(input("type in your grades :")).split
+grades = (input("type in your grades :")).split()
+grades = [int(grade) for grade in grades]
 
 student = {
     'name' : name,
     'class' : student_class,
     'grades': grades,
 }
- def get_average(grades):
-total = sum(grades)
-average = total - len(grades)
 
-    
+def get_average(grades):
+    total = sum(grades)
+    average = total / len(grades)
+    print(average)
+
+get_average(student['grades'])
 
