@@ -7,7 +7,7 @@ def get_average(data):
     average = total / len(data)
     return average
 
-#function for creating list
+#Uses class to create function for creating list
 def create_student(name, student_class, grades):
 
     new_student = {
