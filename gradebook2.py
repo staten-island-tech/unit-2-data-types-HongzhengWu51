@@ -25,7 +25,7 @@ def get_class_average(student_list):
     for student in student_list:
         average = student['average']
         average_list.append(average)
-#The same as before but finds total average
+#The same as before but finds total average by using the appended list.
     total = sum(average_list)
     class_average = total / len(average_list)
     return class_average
@@ -36,8 +36,9 @@ while continue_adding_students == 'Y':
     student_class= (input("type new student class: "))
     grades = (input("type new student grades (separated by spaces): ")).split()
     grades = [int(grade) for grade in grades]
-#The same thing and format as line 11
+#The same format as line 11
     new_student_info = create_student(name, student_class, grades)
+#List from line2
     students.append(new_student_info)
 
     for student in students:

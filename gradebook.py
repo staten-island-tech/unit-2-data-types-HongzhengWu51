@@ -1,3 +1,4 @@
+#Len finds how many grades there are
 name = (input("type your name: "))
 student_class= (input("type your class: "))
 grades = (input("type in your grades (separated by spaces): ")).split()
